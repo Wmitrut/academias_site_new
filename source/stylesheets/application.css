@@ -185,10 +185,10 @@ a.button_blue:hover{
   margin-bottom: -36px;
   margin: -36px auto;
 }
-.third h1{
+.third h1,.fifth h1{
   font-family: 'Lato', sans-serif;
   font-weight: bold;
-  margin: 20px 0 30px 0;
+  margin: 20px 0 50px 0;
   color: #5a5a5a;
 }
 .third h3{
@@ -199,16 +199,23 @@ a.button_blue:hover{
 /*----------------------------------FOURTH--------------------------------------------------------*/
 .fourth{
   padding:3%;
-  background: #4AA3DF;
+  background-image: linear-gradient(to bottom, rgba(74, 163, 223, 0.95) 0%, rgba(74, 163, 223, 0.7) 100%), url('/images/bg_icon.png');
   text-align: center;
   color: #fff;
   bottom: 0;
 }
+.fourth h1{
+  font-weight: bold;
+}
 /*----------------------------------FIFITH--------------------------------------------------------*/
 .fifth{
+  text-align:center;
   padding:3%;
   background: #fff;
   bottom: 0;
+}
+.fifth h1{
+  letter-spacing:0.2em;
 }
 
 /*----------------------------------FOOTER--------------------------------------------------------*/
@@ -233,16 +240,25 @@ footer{
   color: #fff;
   font-family: 'Lato', sans-serif;
 }
+.footer-icon{
+  font-size: 15px;
+  color: #fff;
+  padding: 2%;
+}
+.footer-icon:hover{
+  color: #a3bedd;
+}
 /*----------------------------------PRICING--------------------------------------------------------*/
 .plan {
   box-shadow: 0 2px 2px rgba(10, 10, 10, 0.06);
   min-height: 100px;
   background: #fff;
   border-radius: 5px;
-  margin: 20px 0;
+  margin: 20px auto;
   padding-bottom: 25px;
   text-align: center;
   border: 2px solid #fff;
+  width: 300px;
 }
 .plan .head {
   border-top-left-radius: 4px;

@@ -19,8 +19,8 @@
   <!-- Use title if it's in the page YAML frontmatter -->
   <title><%= current_page.data.title || "The Middleman" %></title>
 
-  <%= stylesheet_link_tag "normalize", "bootstrap","font-awesome","application" %>
-  <%= javascript_include_tag  "all", "bootstrap", "jquery" %>
+  <%= stylesheet_link_tag "normalize", "bootstrap","font-awesome","application", "animate" %>
+  <%= javascript_include_tag  "all", "fastclick" ,"jquery", "bootstrap"%>
 
   <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
