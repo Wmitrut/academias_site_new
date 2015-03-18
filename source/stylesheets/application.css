@@ -1,3 +1,13 @@
+html{
+  background: #000;
+}
+hr{
+  margin:0;
+}
+object{
+  display: none;
+}
+
 /*-------------------------------------------------------HERO---------------------------*/
 .header_button_transparent{
   padding: 0.5%;
@@ -155,6 +165,9 @@ a.button_blue:hover{
   color: #A5A5A6;
   margin: 20px 0 30px 0;
 }
+.third img{
+  width: 40%;
+}
 
 /*----------------------------------FOURTH--------------------------------------------------------*/
 .fourth{
@@ -170,7 +183,6 @@ a.button_blue:hover{
 /*----------------------------------FIFITH--------------------------------------------------------*/
 .fifth{
   text-align:center;
-  background: #efefef;
   bottom: 0;
 }
 .fifth h1{
@@ -178,8 +190,7 @@ a.button_blue:hover{
 
 }
 .fifth img{
-  width:900px;
-  float:left;
+  width:80%;
   -webkit-filter: drop-shadow(5px 0px 3px #d0d0d0);
   drop-shadow(-5px -5px 0 #d0d0d0);
   filter: drop-shadow(5px 0px 3px #d0d0d0);
@@ -199,36 +210,117 @@ a.button_blue:hover{
   font-family: 'Raleway', sans-serif;
   letter-spacing: 0.2em;
 }
-/*----------------------------------FOOTER--------------------------------------------------------*/
-
-footer{
+/*----------------------------------SEVENTH--------------------------------------------------------*/
+.seventh{
+  text-align:center;
+  background: #fff;
   padding:3%;
-  background: #4AA3DF;
-  bottom: 0;
+  color: #5a5a5a;
+}
+span.icon{
+  font-size: 80px;
+  color: #4aa3df;
+}
+.seventh h1{
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 0.2em;
+}
+/*----------------------------------EIGHTH--------------------------------------------------------*/
+.eighth{
+  text-align:center;
+  background: #fff;
+  padding:3%;
+  color: #5a5a5a;
+}
+.eighth h1{
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 0.2em;
+}
+.testimonials{
+  margin-top:50px;
+}
+.testimonial_img{
+  width: 100px;
+  border-radius: 50%;
+  border: 3px solid #4aa4df;
+}
+/*----------------------------------NINETH--------------------------------------------------------*/
+.nineth{
+  text-align:center;
+  background: #fff;
+  padding:3%;
+  color: #5a5a5a;
+}
+.nineth h1{
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 0.2em;
+  margin-bottom: 50px;
+}
+.contact_field{
+  border: 2px solid #efefef;
+  border-radius: 5px;
+  padding: 1%;
+  font-size: 20px;
+  outline: none;
+  transition: 0.2s all;
+}
+.contact_field:focus{
+  border:2px solid #4aa3df;
+}
+input.button_blue{
+  margin-top: 10px;
   color:#fff;
 }
-.footer-social-list{
-  list-style:none;
-  font-size: 25px;
-  color:#fff !important;
+input.button_blue:hover{
+  background: #3d89b5;
 }
-.footer-support-link img{
-  width: 200px;
+
+/*----------------------------------FOOTER--------------------------------------------------------*/
+footer{
+  padding:3%;
+  background: #335A74;
+  bottom: 0;
+  color:#fff;
+  text-align:center;
 }
-.footer-copyright-wrapper{
+.footer-social ul{
+  list-style: none;
+}
+.footer-social ul li{
+  display: inline;
+}
+.footer-links ul{
+  list-style: none;
+}
+.footer-links a{
+  color: #fff;
+}
+.footer-links a :hover{
+  opacity: 0.6;
+}
+.footer-support img{
+  width: 50%;
+}
+.footer-icon{
+  color: #fff;
+  margin: 10px;
+}
+.footer-icon:hover{
+  opacity:0.6;
+}
+
+/*----------------------------------FOOTER COPYRIGHT------------------------------------------------------*/
+.footer-copyright{
   background: #3C515F;
-  padding: 2%;
+  padding: 1%;
   color: #fff;
   font-family: 'Lato', sans-serif;
 }
-.footer-icon{
-  font-size: 15px;
+.footer-copyright a{
   color: #fff;
-  padding: 2%;
+  font-weight: bold;
 }
-.footer-icon:hover{
-  color: #a3bedd;
-}
+
 /*----------------------------------PRICING--------------------------------------------------------*/
 .plan {
   box-shadow: 0 2px 2px rgba(10, 10, 10, 0.06);
@@ -282,8 +374,6 @@ button.btn.btn-success:hover{
 button.btn.btn-success:focus{
   outline:0;
 }
-
-
 .item-list li{
   color:#5a5a5a;
 }
