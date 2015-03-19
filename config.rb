@@ -50,7 +50,7 @@ set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'
 set :partials_dir, 'partials'
-set :fonts_dir, '_fonts'
+set :fonts_dir, 'fonts'
 
 # Build-specific configuration
 # ----------------------------------------------
