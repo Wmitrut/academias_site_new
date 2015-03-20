@@ -527,6 +527,7 @@ footer{
   border-radius:50px;
   background: #4aa3df;
   transition: 0.3s all;
+  margin-bottom: 10px;
 }
 button.btn.btn-success:hover{
   background: #53bff5;
@@ -546,4 +547,30 @@ button.btn.btn-success:focus{
 }
 .symbol{
   font-size: 10px;
+}
+/*----------------------------------PRICING--------------------------------------------------------*/
+.paypal_div{
+  text-align: center;
+}
+.paypal_div select{
+  color: #000;
+  padding: 2%;
+  background: #fff;
+  border: 2px solid #4aa3df;
+  border-radius: 5px;
+}
+.paypal_button{
+  background: #4aa3df;
+  border: none;
+  padding: 2%;
+  border-radius: 5px;
+  margin-top: 20px;
+  outline: none;
+  transition: 0.3s all;
+}
+.paypal_button:hover{
+  background: #357599;
+}
+option{
+  padding: 2%;
 }
