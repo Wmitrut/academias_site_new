@@ -20,12 +20,11 @@ $(document).ready(function () {
 });
 
 
-
-$(document).ready(function(){
+adjustCarrossel = function(){
   var width = document.getElementById('testimonial').offsetWidth;
   if (width < 600) {
-    $("#id").addClass(".owl-carousel");
-    $("#id").removeClass(".col-md-4");
+    $("#testimonial").addClass("owl-carousel");
+    $("#testimonial").removeClass("col-md-4");
     $("#testimonial").owlCarousel({
       items : 1,
       autoPlay : false,
@@ -38,11 +37,14 @@ $(document).ready(function(){
       paginationSpeed : 400
     });
   } else {
-    $("#id").removeClass(".owl-carousel");
-    $("#id").addClass(".col-md-4");
+    $("#testimonial").removeClass("owl-carousel");
+    $("#testimonial .owl-wrapper").css({transform: "translate3d(0px, 0px, 0px);"});
   }
   console.log(width);
-});
+};
+
+$(window).resize(adjustCarrossel);
+$(document).ready(adjustCarrossel);
 
 
 
