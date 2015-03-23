@@ -20,6 +20,34 @@ $(document).ready(function () {
 });
 
 
+
+$(document).ready(function(){
+  var width = document.getElementById('testimonial').offsetWidth;
+  if (width < 600) {
+    $("#id").addClass(".owl-carousel");
+    $("#id").removeClass(".col-md-4");
+    $("#testimonial").owlCarousel({
+      items : 1,
+      autoPlay : false,
+      responsive: true,
+      mouseDrag : true,
+      touchDrag : true,
+      pagination : true,
+      singleItem:true,
+      slideSpeed : 300,
+      paginationSpeed : 400
+    });
+  } else {
+    $("#id").removeClass(".owl-carousel");
+    $("#id").addClass(".col-md-4");
+  }
+  console.log(width);
+});
+
+
+
+
+
 $(document).ready(function(){
   var isOnScreen = function(elem){
     var win = $(window);
