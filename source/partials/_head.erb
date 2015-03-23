@@ -1,4 +1,11 @@
 <head>
+  <%= stylesheet_link_tag "normalize", "bootstrap","font-awesome","application", "animate", "owl.carousel"%>
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+
+  <%= javascript_include_tag  "all", "fastclick" ,"jquery", "bootstrap", "owl.carousel.min"%>
+  
   <meta charset="utf-8">
   <meta name="viewport" content="initial-scale=1">
 
@@ -23,14 +30,11 @@
   <meta name="twitter:url" content="http://www.academi.as">
   <meta name="twitter:title" content="Academi.as - Sistema de Gestão de Academias">
   <meta name="twitter:description" content="Sistema de Gestão de academias 100% Online.">
-  <!-- Use title if it's in the page YAML frontmatter -->
-  <title><%= current_page.data.title || "The Middleman" %></title>
 
-  <%= stylesheet_link_tag "normalize", "bootstrap","font-awesome","application", "animate", "owl.carousel"%>
-  <%= javascript_include_tag  "all", "fastclick" ,"jquery", "bootstrap", "owl.carousel.min"%>
+  <title><%= current_page.data.title %></title>
 
-  <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+
+
+
 
 </head>
