@@ -575,12 +575,10 @@ button.btn.btn-success:focus{
 option{
   padding: 2%;
 }
-/*----------------------------------PRICING--------------------------------------------------------*/
+/*----------------------------------CONHECA-SECOND--------------------------------------------------------*/
 .conheca_second{
   text-align:center;
   background: #fff;
-  padding: 1%;
-  min-height: 90vh;
 }
 .conheca_second h1{
   margin-top:90px;
@@ -591,4 +589,28 @@ option{
   color: #A5A5A6;
   font-family: 'Raleway', sans-serif;
   margin-top: -5px;
+}
+/*----------------------------------CONHECA-THIRD--------------------------------------------------------*/
+.conheca_third{
+  text-align:center;
+  background: #fff;
+}
+.conheca_third h1{
+  margin-top:90px;
+  font-weight:bold;
+  color:#5a5a5a;
+}
+.conheca_third h3{
+  color: #A5A5A6;
+  font-family: 'Raleway', sans-serif;
+  margin-top: -5px;
+}
+.thumbnail{
+  min-height: 250px;
+}
+.thumbnail img{
+  border: 3px solid #4aa3df;
+  width: 100px;
+  margin-top: 30px;
+  border-radius: 50%;
 }
