@@ -645,3 +645,18 @@ option{
 .conheca_fourth b{
   font-size: 25px;
 }
+/*----------------------------------CONHECA-LISTITEM---------------------------------------------------------*/
+.conheca_list_item{
+  border: 1px solid #dbdbdb;
+  margin: 10px;
+  border-radius: 5px;
+  padding: 2%;
+  min-height: 300px;
+}
+.conheca_list_item h3{
+  color: #333;
+  font-weight:bold;
+}
+.logo_big_conheca{
+  margin-top:60px;
+}
