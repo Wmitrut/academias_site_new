@@ -710,8 +710,8 @@ option{
 }
 /*----------------------------------REGISTER_FORM---------------------------------------------------------*/
 .register_form{
-  margin: 50px auto;
   text-align: left;
+  min-height: 600px
 }
 .register_form label{
   margin-top: 15px;
@@ -728,9 +728,13 @@ option{
 }
 .register_button{
   margin-top: 20px;
-  background: red;
+  background: #FFAB11;
+  border: 2px solid #fff;
+  border-radius: 5px;
   color: #fff;
-  border: none;
   padding: 2%;
   font-weight:bold;
+}
+.register_button:hover{
+  background:#FFBF49;
 }
