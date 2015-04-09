@@ -324,6 +324,10 @@ a.button_blue:hover{
   font-family: 'Raleway', sans-serif;
   letter-spacing: 0.2em;
 }
+.sixth img{
+  border-radius: 5px;
+  border: 2px solid #fff;
+}
 /*----------------------------------SEVENTH--------------------------------------------------------*/
 .seventh{
   text-align:center;
@@ -352,6 +356,7 @@ span.icon{
 /*----------------------------------EIGHTH--------------------------------------------------------*/
 .eighth{
   text-align:center;
+  display: none;
   background: #fff;
   padding:3%;
   color: #5a5a5a;
