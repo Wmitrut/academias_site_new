@@ -746,3 +746,7 @@ option{
 .macademia{
   width: 60%;
 }
+.modal-dialog {
+  width: 80%;
+  margin: 30px auto;
+}
