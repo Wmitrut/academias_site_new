@@ -101,3 +101,13 @@ $('.modal').on('show.bs.modal', centerModal);
 $(window).on("resize", function () {
   $('.modal:visible').each(centerModal);
 });
+
+
+
+$(document).ready(function () {
+  $('.button_blue').click(function () {
+    $('html, body').animate({
+      scrollTop: $('.fourth').offset().top
+    }, 'slow');
+  });
+});

@@ -8,6 +8,9 @@ object{
 button.navbar-toggle.collapsed{
   border: 2px solid;
 }
+.container-fluid {
+  padding-right: 30px;
+}
 
 /*-------------------------------------------------------HERO---------------------------*/
 .header_button_transparent{
@@ -62,7 +65,6 @@ nav.navbar.navbar-default{
   min-height: 100vh !important;
   background-size: cover;
   padding-top: 50px;
-  padding-bottom: 136px;
   margin-top: -50px;
   color: #fff;
 }
@@ -626,7 +628,7 @@ option{
   border: 3px solid #4aa3df;
   width: 100px;
   margin-top: 30px;
-  border-radius: 50%;
+  border-radius: 25%;
 }
 /*----------------------------------CONHECA-fourth--------------------------------------------------------*/
 .conheca_fourth{
