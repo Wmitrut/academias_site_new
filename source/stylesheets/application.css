@@ -291,9 +291,7 @@ a.button_blue:hover{
 .fifth img{
   width:80%;
   -webkit-filter: drop-shadow(5px 0px 3px #d0d0d0);
-  drop-shadow(-5px -5px 0 #d0d0d0);
   filter: drop-shadow(5px 0px 3px #d0d0d0);
-  drop-shadow(-5px 0px 3px #d0d0d0);
 }
 
 

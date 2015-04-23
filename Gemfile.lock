@@ -148,12 +148,10 @@ PLATFORMS
 DEPENDENCIES
   bootstrap-sass (~> 3.3.3)
   coffee-script (~> 2.3.0)
-  compass (~> 1.0.1)
   middleman (~> 3.3.10)
   middleman-livereload (~> 3.1.0)
   middleman-smusher (~> 3.0.0)
   rack-contrib
-  sass (~> 3.4.9)
   tzinfo-data
   unicorn
   wdm (~> 0.1.0)

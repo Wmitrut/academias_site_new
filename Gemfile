@@ -13,10 +13,6 @@ gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]
 # Windows does not come with time zone data
 gem "tzinfo-data", platforms: [:mswin, :mingw]
 
-gem 'sass', '~> 3.4.9'
-
-gem 'compass', '~> 1.0.1' # Using compass temporarily so we can have sass 3.3, remove this when Middleman without compass dependency is released
-
 gem 'coffee-script', '~> 2.3.0'
 # HTTP server for Rack recommended by Heroku
 gem 'unicorn'
