@@ -3,6 +3,7 @@
   <%= partial  "_head" %>
   <%= partial  "_header" %>
   <body class="<%= page_classes %>">
+    <%= javascript_include_tag  "bootstrap"%>
     <%= yield %>
   </body>
   <%= partial  "_footer" %>
