@@ -107,7 +107,7 @@ $(window).on("resize", function () {
 $(document).ready(function () {
   $('.button_blue').click(function () {
     $('html, body').animate({
-      scrollTop: $('#plans').offset().top
+      scrollTop: $('.fourth').offset().top
     }, 'slow');
   });
 });

@@ -13,6 +13,7 @@ button.navbar-toggle.collapsed{
 }
 
 .logo_home{
+  margin-top: 20px;
   width:35%;
 }
 
@@ -26,6 +27,7 @@ button.navbar-toggle.collapsed{
   margin-left: 10px;
   transition: 0.3s all;
 }
+
 .button_transparent{
   padding: 2%;
   background: none;
@@ -42,14 +44,14 @@ a.button_transparent {
 a.button_transparent:hover{
   text-decoration: none;
   background:rgba(255,255,255,.8);
-  color:#4AA3DF;
+  color:#0090CA;
 }
 .header_button_transparent:hover{
   background: rgba(255,255,255, .7) !important;
-  color: #4AA3DF !important;
+  color: #0090CA !important;
 }
 .header_button_transparent a:hover {
-  color: #4AA3DF !important;
+  color: #0090CA !important;
 }
 
 nav.navbar.navbar-default{
@@ -80,6 +82,7 @@ nav.navbar.navbar-default{
   letter-spacing:0.12em;
   font-family: 'Droid Sans', sans-serif;
 }
+
 .hero h3{
   margin-top:50px;
   font-family: 'Raleway', sans-serif;
@@ -148,12 +151,20 @@ nav.navbar.navbar-default{
   padding: 1%;
   min-height: 90vh;
 }
-.second h1{
+.second h2{
   margin-top:90px;
   font-weight:bold;
   color:#5a5a5a;
+  margin-top: 20px;
 }
+
 .second h3{
+  margin-top:90px;
+  font-weight:bold;
+  color:#5a5a5a;
+  margin-top: 30px;
+}
+.second h4{
   color: #A5A5A6;
   font-family: 'Raleway', sans-serif;
   margin-top: -5px;
@@ -161,17 +172,18 @@ nav.navbar.navbar-default{
 .estatistica{
   margin: 20px 0 80px 0;
 }
-.estatistica h1{
+.estatistica h2{
     font-family: 'Lato', sans-serif;
-    color:#4AA3DF;
+    color:#0090CA;
     font-size: 50px;
+    margin-top: 100px;
 }
 .button_blue{
   padding: 1%;
-  background: #4AA3DF;
+  background: #0090CA;
   font-size: 30px;
   font-weight: bold;
-  border: 1px solid #4AA3DF;;
+  border: 1px solid #0090CA;;
   border-radius: 50px;
   transition: 0.3s all;
 }
@@ -182,7 +194,7 @@ a.button_blue {
 a.button_blue:hover{
   text-decoration: none;
   background:rgba(255,255,255,.8);
-  color:#4AA3DF;
+  color:#0090CA;
 }
 @media (max-width: 780px) {
   .second h1{
@@ -213,36 +225,21 @@ a.button_blue:hover{
 /*----------------------------------THIRD--------------------------------------------------------*/
 .third{
   padding:3%;
-  background:  #fff;
+  background-image: linear-gradient(to bottom, rgba(0, 144, 202, 1) 0%, rgba(0, 167, 221, 0.7) 100%), url('/images/pattern2_transparent64.png');
   text-align: center;
-  color: #2C3941;
+  color: #ffffff;
+  bottom: 0;
 }
-
-.third h1,.fifth h1{
-  font-family: 'Lato', sans-serif;
+.third h2{
   font-weight: bold;
-  margin: 20px 0 50px 0;
-  color: #5a5a5a;
 }
-.third h3{
-  color: #A5A5A6;
-  margin: 20px 0 30px 0;
-}
-.third img{
-  width: 80%;
-}
-@media (max-width: 780px) {
-  .third h1{
-    margin-top:50px;
-    font-size:30px;
-  }
-  .third h3{
-    font-size:20px;
-    margin: 10px 0 20px 0;
+@media (max-width: 1000px) {
+  .basico, .master {
+    display: inline-block;
   }
 }
 @media (max-width: 400px) {
-  .third h1{
+  .third h2{
     margin-top:30px;
     font-size:20px;
   }
@@ -255,21 +252,36 @@ a.button_blue:hover{
 /*----------------------------------FOURTH--------------------------------------------------------*/
 .fourth{
   padding:3%;
-  background-image: linear-gradient(to bottom, rgba(74, 163, 223, 0.95) 0%, rgba(74, 163, 223, 0.7) 100%), url('/images/pattern2_transparent64.png');
+  background:  #fff;
   text-align: center;
-  color: #fff;
-  bottom: 0;
+  color: #2C3941;
 }
-.fourth h1{
+
+.fourth h2,.fourth h2{
+  font-family: 'Lato', sans-serif;
   font-weight: bold;
+  margin: 20px 0 50px 0;
+  color: #5a5a5a;
 }
-@media (max-width: 1000px) {
-  .basico, .master {
-    display: none;
+.fourth h3{
+  color: #A5A5A6;
+  margin: 20px 0 30px 0;
+}
+.fourth img{
+  width: 80%;
+}
+@media (max-width: 780px) {
+  .fourth h2{
+    margin-top:50px;
+    font-size:30px;
+  }
+  .fourthh3{
+    font-size:20px;
+    margin: 10px 0 20px 0;
   }
 }
 @media (max-width: 400px) {
-  .fourth h1{
+  .fourth h2{
     margin-top:30px;
     font-size:20px;
   }
@@ -278,45 +290,10 @@ a.button_blue:hover{
     margin: 5px 0 15px 0;
   }
 }
-
 /*----------------------------------FIFITH--------------------------------------------------------*/
+
+
 .fifth{
-  text-align:center;
-  bottom: 0;
-}
-.fifth h1{
-  letter-spacing:0.2em;
-
-}
-.fifth img{
-  width:80%;
-  -webkit-filter: drop-shadow(5px 0px 3px #d0d0d0);
-  filter: drop-shadow(5px 0px 3px #d0d0d0);
-}
-
-
-@media (max-width: 780px) {
-  .fifth h1{
-    margin: 20px 0 20px 0;
-    font-size:20px;
-  }
-  .fifth h3{
-    font-size:15px;
-  }
-}
-
-@media (max-width: 400px) {
-  .fifthh h1{
-    margin-top:30px;
-    font-size:15px;
-  }
-  .fifth h3{
-    font-size:15px;
-  }
-}
-
-/*----------------------------------SIXTH--------------------------------------------------------*/
-.sixth{
   text-align:center;
   background-image: linear-gradient(to bottom, rgba(74, 163, 223, 0.8) 0%, rgba(74, 163, 223, 0.8) 100%), url('/images/working-out.jpg');
   background-size: cover;
@@ -325,48 +302,60 @@ a.button_blue:hover{
   padding:3%;
   color: #fff;
 }
-.sixth h1{
+.fifth h2{
   font-family: 'Raleway', sans-serif;
   letter-spacing: 0.2em;
 }
-.sixth img{
+.fifth img{
   border-radius: 5px;
   border: 2px solid #fff;
 }
+
+/*----------------------------------SIXTH--------------------------------------------------------*/
+.sixth{
+  text-align:center;
+  bottom: 0;
+}
+.sixth h2{
+  letter-spacing:0.2em;
+
+}
+.sixth img{
+  width:80%;
+  -webkit-filter: drop-shadow(5px 0px 3px #d0d0d0);
+  filter: drop-shadow(5px 0px 3px #d0d0d0);
+  margin: 0 auto;
+}
+
+@media (max-width: 780px) {
+  .sixth h2{
+    margin: 20px 0 20px 0;
+    font-size:20px;
+  }
+  .sixth h3{
+    font-size:15px;
+  }
+}
+
+@media (max-width: 400px) {
+  .sixth h2{
+    margin-top:30px;
+    font-size:15px;
+  }
+  .sixth h3{
+    font-size:15px;
+  }
+}
+
 /*----------------------------------SEVENTH--------------------------------------------------------*/
 .seventh{
-  text-align:center;
-  background: #fff;
-  padding:3%;
-  color: #5a5a5a;
-}
-span.icon{
-  font-size: 80px;
-  color: #4aa3df;
-}
-.seventh h1{
-  font-family: 'Raleway', sans-serif;
-  letter-spacing: 0.2em;
-}
-@media (max-width: 1000px) {
-  span.icon{
-    font-size:40px;
-  }
-}
-@media (max-width: 1000px) {
-  span.icon{
-    font-size:40px;
-  }
-}
-/*----------------------------------EIGHTH--------------------------------------------------------*/
-.eighth{
   text-align:center;
   display: none;
   background: #fff;
   padding:3%;
   color: #5a5a5a;
 }
-.eighth h1{
+.seventh h2{
   font-family: 'Raleway', sans-serif;
   letter-spacing: 0.2em;
 }
@@ -380,8 +369,34 @@ span.icon{
 }
 
 @media (max-width: 400px) {
-  .eighth{
+  .seventh{
     display:none;
+  }
+}
+/*----------------------------------EIGHTH--------------------------------------------------------*/
+.eighth{
+  padding:3%;
+  background: #0090CA;
+  bottom: 0;
+  color:#fff;
+  text-align:center;
+}
+span.icon{
+  font-size: 80px;
+  color: #FFFFFF;
+}
+.eighth h2{
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 0.2em;
+}
+@media (max-width: 1000px) {
+  span.icon{
+    font-size:40px;
+  }
+}
+@media (max-width: 1000px) {
+  span.icon{
+    font-size:40px;
   }
 }
 /*----------------------------------NINETH--------------------------------------------------------*/
@@ -391,7 +406,7 @@ span.icon{
   padding:3%;
   color: #5a5a5a;
 }
-.nineth h1{
+.nineth h2{
   font-family: 'Raleway', sans-serif;
   letter-spacing: 0.2em;
   margin-bottom: 50px;
@@ -405,7 +420,7 @@ span.icon{
   transition: 0.2s all;
 }
 .contact_field:focus{
-  border:2px solid #4aa3df;
+  border:2px solid #0090CA;
 }
 input.button_blue{
   margin-top: 10px;
@@ -416,11 +431,11 @@ input.button_blue:hover{
 }
 
 @media (max-width: 780px) {
-  .nineth h1{
+  .nineth h2{
     margin: 20px 0 20px 0;
     font-size:20px;
   }
-  .nineth h3{
+  .nineth h4{
     font-size:15px;
   }
 }
@@ -430,15 +445,14 @@ input.button_blue:hover{
     margin-top:30px;
     font-size:20px;
   }
-  .nineth h3{
+  .nineth h4{
     font-size:15px;
   }
 }
-
 /*----------------------------------FOOTER--------------------------------------------------------*/
 footer{
   padding:3%;
-  background: #335A74;
+  background: #0090CA;
   bottom: 0;
   color:#fff;
   text-align:center;
@@ -466,6 +480,14 @@ footer{
 .footer-links a :hover{
   opacity: 0.6;
 }
+.footer-links.map {
+  margin: 0 auto;
+}
+.footer-links.map li {
+  float: left;
+  padding: 0 5px;
+  display: inline;
+}
 .footer-support{
   padding: 2%;
 }
@@ -480,6 +502,7 @@ footer{
 .footer-icon:hover{
   color:#5086AB
 }
+
 /*----------------------------------FOOTER COPYRIGHT------------------------------------------------------*/
 .footer-copyright{
   background: #3C515F;
@@ -508,7 +531,7 @@ footer{
   border-top-right-radius: 4px;
   font-family: 'Lato', sans-serif;
   padding: 12px 16px;
-  background: #4aa3df;
+  background: #0090CA;
   color: #fff;
 }
 .plan .price {
@@ -536,7 +559,7 @@ footer{
   border: none;
   border-bottom: 2px solid #399dd6;
   border-radius:50px;
-  background: #4aa3df;
+  background: #0090CA;
   transition: 0.3s all;
   margin-bottom: 10px;
 }
@@ -567,11 +590,11 @@ button.btn.btn-success:focus{
   color: #000;
   padding: 2%;
   background: #fff;
-  border: 2px solid #4aa3df;
+  border: 2px solid #0090CA;
   border-radius: 5px;
 }
 .paypal_button{
-  background: #4aa3df;
+  background: #0090CA;
   border: none;
   padding: 2%;
   border-radius: 5px;
@@ -590,7 +613,7 @@ option{
   text-align:center;
   background: #fff;
 }
-.conheca_second h1{
+.conheca_second h2{
   margin-top:50px;
   font-weight:bold;
   color:#5a5a5a;
@@ -614,7 +637,7 @@ option{
   text-align:center;
   background: #fff;
 }
-.conheca_third h1{
+.conheca_third h2{
   margin-top:90px;
   font-weight:bold;
   color:#5a5a5a;
@@ -628,7 +651,7 @@ option{
   min-height: 250px;
 }
 .thumbnail img{
-  border: 3px solid #4aa3df;
+  border: 3px solid #0090CA;
   width: 100px;
   margin-top: 30px;
   border-radius: 25%;
@@ -642,7 +665,7 @@ option{
   padding: 2%;
   color: #fff;
 }
-.conheca_fourth h1{
+.conheca_fourth h2{
   margin-top:30px;
   font-family: 'Raleway', sans-serif;
   font-weight:bold;
@@ -704,7 +727,7 @@ option{
 }
 .button_implant{
   background: #fff;
-  color:#4aa3df;
+  color:#0090CA;
   margin-top:20px;
   padding: 1%;
   font-size: 20px;
@@ -754,4 +777,20 @@ option{
 .modal-dialog {
   width: 80%;
   margin: 30px auto;
+}
+/*----------------------------------CONTATO---------------------------------------------------------*/
+.contato-social{
+  padding:2%;
+}
+.contato-social ul{
+  list-style: none;
+  padding: 0;
+}
+.contato-social ul li{
+  display: inline;
+}
+.contato-icon{
+  color: #fff;
+  margin: 10px;
+  font-size: 25px;
 }
